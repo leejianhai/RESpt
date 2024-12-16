@@ -1,0 +1,42 @@
+2024-12-16 09:18:45 INFO     Welcome to PhiSpy.py version 4.2.21
+2024-12-16 09:18:45 INFO     Starting PhiSpy.py with the following arguments
+Namespace(infile='005/prokka_results/wayao.gbk', output_dir='005/phispy_results', make_training_data=None, training_set='data/trainSet_genericAll.txt', list=False, file_prefix='wayao_', evaluate=False, number=5, min_contig_size=5000, window_size=30, nonprophage_genegaps=10, phage_genes=1, metrics=['orf_length_med', 'shannon_slope', 'at_skew', 'gc_skew', 'max_direction'], randomforest_trees=500, expand_slope=False, kmers_type='all', phmms=None, include_annotations=True, ignore_annotations=False, color=False, threads=4, output_choice=3, include_all_repeats=False, keep_dropped_predictions=False, extra_dna=2000, min_repeat_len=10, log='005/phispy_results/wayao_phispy.log', quiet=False, keep=False, logger=<Logger PhiSpy (Level 5)>)
+2024-12-16 09:18:46 INFO     Processing 71 contigs
+2024-12-16 09:18:46 INFO     Making Testing Set...
+2024-12-16 09:18:49 INFO     Start Classification Algorithm...
+2024-12-16 09:18:49 INFO     Using training set in data/trainSet_genericAll.txt
+2024-12-16 09:18:50 INFO     Using the following metric(s): {'max_direction', 'at_skew', 'shannon_slope', 'orf_length_med', 'gc_skew'}.
+2024-12-16 09:18:50 INFO     Running the random forest classifier with 500 trees and 4 threads
+2024-12-16 09:19:37 INFO     Rank threshold calculated as 0.35145999364986313
+2024-12-16 09:19:37 INFO     As the training flag is zero, down-weighting unknown functions
+2024-12-16 09:19:37 INFO     Evaluating...
+2024-12-16 09:19:37 INFO     Checking prophages we might have found
+2024-12-16 09:19:37 INFO     Potential prophages (sorted highest to lowest)
+2024-12-16 09:19:37 INFO     Contig	Start	Stop	Number of potential genes	Status
+2024-12-16 09:19:37 INFO     k141_184	43772	55653	18	Dropped. No genes were identified as phage genes
+2024-12-16 09:19:37 INFO     k141_186	424	7195	13	Dropped. No genes were identified as phage genes
+2024-12-16 09:19:37 INFO     k141_189	61590	65418	6	Dropped. No genes were identified as phage genes
+2024-12-16 09:19:37 INFO     k141_185	182588	184749	5	Dropped. No genes were identified as phage genes
+2024-12-16 09:19:37 INFO     k141_195	23	1550	4	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_167	9054	18851	2	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_87	330685	331932	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_87	303172	303774	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_87	20535	21431	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_33	2818	3558	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_211	238237	240495	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_205	52778	53821	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_187	4240	5430	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_184	61086	62342	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_178	38953	39849	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_163	1255	3303	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_149	5708	6487	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_148	1226	2380	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_143	2164	3327	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_136	56452	57717	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_130	24443	24988	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_130	9375	9917	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     k141_107	440	1453	1	Dropped. Region too small (Not enough genes)
+2024-12-16 09:19:37 INFO     Creating output files
+2024-12-16 09:19:37 INFO     Writing GenBank output file
+2024-12-16 09:19:37 INFO     Writing prophage_coordinates output file
+2024-12-16 09:19:37 INFO     Done!!! Output is in 005/phispy_results and the log is in 005/phispy_results/wayao_phispy.log

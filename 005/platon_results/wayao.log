@@ -1,0 +1,544 @@
+2024-12-16 09:17:50,474 - INFO - MAIN - version 1.7
+2024-12-16 09:17:50,474 - INFO - MAIN - command line: /home/lijianhai/miniconda3/envs/platon/bin/platon /home/lijianhai/大肠杆菌序列/分离测序/wayao.fa --db ../RESpt/platon --output 005/platon_results --prefix wayao
+2024-12-16 09:17:50,474 - INFO - CONFIG - threads=56
+2024-12-16 09:17:50,474 - INFO - CONFIG - verbose=False
+2024-12-16 09:17:50,474 - INFO - CONFIG - database detected: type=parameter, path=/home/lijianhai/RESpt/platon
+2024-12-16 09:17:50,474 - INFO - CONFIG - genome-path=/home/lijianhai/大肠杆菌序列/分离测序/wayao.fa
+2024-12-16 09:17:50,475 - INFO - CONFIG - tmp-path=/tmp/tmpikcj2ie5
+2024-12-16 09:17:50,475 - INFO - CONFIG - output-path=/home/lijianhai/RESpt/005/platon_results
+2024-12-16 09:17:50,475 - INFO - CONFIG - mode=accuracy
+2024-12-16 09:17:50,475 - INFO - CONFIG - characterize=False
+2024-12-16 09:17:50,475 - INFO - CONFIG - metagenome=False
+2024-12-16 09:17:50,477 - INFO - UTILS - dependency check: tool=prodigal, version=v2.6.3
+2024-12-16 09:17:50,482 - INFO - UTILS - dependency check: tool=diamond, version=v2.1.8
+2024-12-16 09:17:50,612 - INFO - UTILS - dependency check: tool=blastn, version=v2.16.0
+2024-12-16 09:17:50,615 - INFO - UTILS - dependency check: tool=hmmsearch, version=v3.4.0
+2024-12-16 09:17:50,618 - INFO - UTILS - dependency check: tool=nucmer, version=v4.0.0
+2024-12-16 09:17:50,622 - INFO - UTILS - dependency check: tool=cmscan, version=v1.1.5
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_36, length=390
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_160, length=352
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_40, length=389
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_152, length=329
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_209, length=370
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_197, length=351
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_176, length=515
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_165, length=247
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_64, length=535
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_56, length=338
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_16, length=368
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_172, length=576
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_92, length=573
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_44, length=697
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_24, length=594
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_57, length=311
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_8, length=849
+2024-12-16 09:17:50,628 - INFO - MAIN - exclude contig: too short: id=k141_65, length=380
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_37, length=362
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_203, length=801
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_76, length=820
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_120, length=887
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_69, length=596
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_168, length=280
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_96, length=997
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_191, length=794
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_112, length=695
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_26, length=269
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_161, length=503
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_58, length=214
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_173, length=314
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_49, length=368
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_0, length=910
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_38, length=282
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_27, length=225
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_20, length=506
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_59, length=430
+2024-12-16 09:17:50,629 - INFO - MAIN - exclude contig: too short: id=k141_157, length=331
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_77, length=720
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_9, length=840
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_162, length=673
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_78, length=214
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_1, length=695
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_42, length=227
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_39, length=751
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_10, length=362
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_158, length=473
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_79, length=228
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_73, length=504
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_85, length=698
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_13, length=281
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_15, length=277
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_86, length=540
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_18, length=412
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_51, length=398
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_19, length=309
+2024-12-16 09:17:50,630 - INFO - MAIN - exclude contig: too short: id=k141_98, length=956
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_114, length=284
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_5, length=216
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_6, length=338
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_115, length=347
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_61, length=211
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_62, length=216
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_7, length=848
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_126, length=370
+2024-12-16 09:17:50,631 - INFO - MAIN - exclude contig: too short: id=k141_3, length=386
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_89, length=409
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_90, length=319
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_91, length=353
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_109, length=689
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_47, length=929
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_118, length=603
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_67, length=589
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_119, length=299
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_34, length=499
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_35, length=350
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_71, length=558
+2024-12-16 09:17:50,632 - INFO - MAIN - exclude contig: too short: id=k141_146, length=491
+2024-12-16 09:17:50,633 - INFO - MAIN - exclude contig: too short: id=k141_55, length=281
+2024-12-16 09:17:50,633 - INFO - MAIN - exclude contig: too short: id=k141_155, length=486
+2024-12-16 09:17:50,633 - INFO - MAIN - exclude contig: too short: id=k141_131, length=440
+2024-12-16 09:17:50,634 - INFO - MAIN - exclude contig: too short: id=k141_208, length=355
+2024-12-16 09:17:50,634 - INFO - MAIN - exclude contig: too short: id=k141_111, length=372
+2024-12-16 09:17:50,634 - INFO - MAIN - exclude contig: too short: id=k141_139, length=706
+2024-12-16 09:17:50,635 - INFO - MAIN - exclude contig: too short: id=k141_190, length=573
+2024-12-16 09:17:50,635 - INFO - MAIN - exclude contig: too short: id=k141_150, length=262
+2024-12-16 09:17:50,635 - INFO - MAIN - exclude contig: too short: id=k141_135, length=312
+2024-12-16 09:17:50,637 - INFO - MAIN - exclude contig: too short: id=k141_196, length=359
+2024-12-16 09:17:50,643 - INFO - MAIN - exclude contig: too short: id=k141_202, length=588
+2024-12-16 09:17:50,645 - INFO - MAIN - length contig filter: # input=197, # discarded=89, # remaining=108
+2024-12-16 09:18:00,472 - INFO - MAIN - ORF detection: # ORFs=4792
+2024-12-16 09:18:00,473 - INFO - MAIN - ORF contig filter disabled! # passed contigs=108
+2024-12-16 09:18:21,026 - INFO - MAIN - MPS detection: # MPS=4708
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_156, RDS=-0.076045, score-sum=-0.076045, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_116, RDS=-87.349767, score-sum=-174.699534, #ORFs=2
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_84, RDS=-0.219824, score-sum=-0.219824, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_140, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_72, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_30, RDS=-19.981714, score-sum=-39.963427, #ORFs=2
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_41, RDS=-0.002162, score-sum=-0.002162, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_12, RDS=-92.111599, score-sum=-276.334797, #ORFs=3
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_124, RDS=38.526962, score-sum=115.580887, #ORFs=3
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_93, RDS=-24.938069, score-sum=-74.814207, #ORFs=3
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_97, RDS=0.121078, score-sum=0.121078, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_17, RDS=-47.969965, score-sum=-47.969965, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_50, RDS=-29.486125, score-sum=-29.486125, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_141, RDS=0.000000, score-sum=0.000000, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_128, RDS=-19.982378, score-sum=-39.964757, #ORFs=2
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_94, RDS=0.121078, score-sum=0.121078, #ORFs=1
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_21, RDS=-1.650231, score-sum=-3.300462, #ORFs=2
+2024-12-16 09:18:27,169 - INFO - MAIN - contig RDS: contig=k141_113, RDS=0.000000, score-sum=0.000000, #ORFs=2
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_75, RDS=11.497040, score-sum=22.994080, #ORFs=2
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_4, RDS=21.281656, score-sum=63.844968, #ORFs=3
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_43, RDS=-0.219824, score-sum=-0.219824, #ORFs=1
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_174, RDS=107.499188, score-sum=322.497565, #ORFs=3
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_60, RDS=6.736701, score-sum=33.683503, #ORFs=5
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_52, RDS=-213.884429, score-sum=-641.653287, #ORFs=3
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_32, RDS=-132.269044, score-sum=-661.345221, #ORFs=5
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_192, RDS=-22.088237, score-sum=-132.529423, #ORFs=6
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_175, RDS=-3.190345, score-sum=-6.380690, #ORFs=2
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_125, RDS=-31.943080, score-sum=-95.829239, #ORFs=3
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_188, RDS=1.044277, score-sum=4.177108, #ORFs=4
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_129, RDS=-51.778552, score-sum=-258.892760, #ORFs=5
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_127, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_121, RDS=27.131841, score-sum=217.054730, #ORFs=8
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_2, RDS=-9.159623, score-sum=-36.638490, #ORFs=4
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_45, RDS=50.275982, score-sum=553.035803, #ORFs=11
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_95, RDS=-33.508780, score-sum=-134.035120, #ORFs=4
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_22, RDS=-73.006063, score-sum=-657.054566, #ORFs=9
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_122, RDS=0.000000, score-sum=0.000000, #ORFs=0
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_81, RDS=-98.562980, score-sum=-788.503842, #ORFs=8
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_193, RDS=8.275300, score-sum=33.101199, #ORFs=4
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_23, RDS=-125.604077, score-sum=-125.604077, #ORFs=1
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_88, RDS=-301.994361, score-sum=-3623.932337, #ORFs=12
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_101, RDS=1.703694, score-sum=22.148028, #ORFs=13
+2024-12-16 09:18:27,170 - INFO - MAIN - contig RDS: contig=k141_108, RDS=47.249315, score-sum=755.989037, #ORFs=16
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_11, RDS=-88.364017, score-sum=-1148.732217, #ORFs=13
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_46, RDS=10.594294, score-sum=52.971471, #ORFs=5
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_66, RDS=-20.857391, score-sum=-250.288687, #ORFs=12
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_117, RDS=-147.364896, score-sum=-2652.568121, #ORFs=18
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_33, RDS=43.461937, score-sum=391.157433, #ORFs=9
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_70, RDS=14.609936, score-sum=321.418591, #ORFs=22
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_145, RDS=-338.374905, score-sum=-6429.123187, #ORFs=19
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_82, RDS=-5.402094, score-sum=-59.423030, #ORFs=11
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_159, RDS=70.846890, score-sum=1558.631570, #ORFs=22
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_54, RDS=0.919309, score-sum=11.951018, #ORFs=13
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_147, RDS=75.940484, score-sum=759.404840, #ORFs=10
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_103, RDS=-178.380026, score-sum=-3567.600523, #ORFs=20
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_153, RDS=64.718884, score-sum=1617.972105, #ORFs=25
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_83, RDS=7.245097, score-sum=43.470584, #ORFs=6
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_154, RDS=-30.476220, score-sum=-60.952440, #ORFs=2
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_166, RDS=-209.379897, score-sum=-7328.296388, #ORFs=35
+2024-12-16 09:18:27,171 - INFO - MAIN - contig RDS: contig=k141_123, RDS=-182.303469, score-sum=-4557.586725, #ORFs=25
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_104, RDS=-105.106839, score-sum=-3258.312010, #ORFs=31
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_130, RDS=-79.411457, score-sum=-3414.692671, #ORFs=43
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_63, RDS=-212.653426, score-sum=-7230.216480, #ORFs=34
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_106, RDS=-14.712708, score-sum=-29.425416, #ORFs=2
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_206, RDS=-385.301784, score-sum=-10788.449961, #ORFs=28
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_110, RDS=-236.291147, score-sum=-7797.607850, #ORFs=33
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_136, RDS=-318.406115, score-sum=-17512.336318, #ORFs=55
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_107, RDS=43.208066, score-sum=518.496793, #ORFs=12
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_138, RDS=0.000000, score-sum=0.000000, #ORFs=2
+2024-12-16 09:18:27,172 - INFO - MAIN - contig RDS: contig=k141_148, RDS=48.191374, score-sum=2264.994591, #ORFs=47
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_177, RDS=-169.544481, score-sum=-9324.946460, #ORFs=55
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_200, RDS=-216.965066, score-sum=-8895.567696, #ORFs=41
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_189, RDS=-216.312522, score-sum=-13844.001437, #ORFs=64
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_167, RDS=-84.194163, score-sum=-1852.271580, #ORFs=22
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_149, RDS=32.383783, score-sum=485.756744, #ORFs=15
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_132, RDS=-180.277046, score-sum=-11718.008008, #ORFs=65
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_163, RDS=-334.814019, score-sum=-27119.935566, #ORFs=81
+2024-12-16 09:18:27,173 - INFO - MAIN - contig RDS: contig=k141_134, RDS=-24.821510, score-sum=-148.929059, #ORFs=6
+2024-12-16 09:18:27,174 - INFO - MAIN - contig RDS: contig=k141_99, RDS=-332.268999, score-sum=-21265.215926, #ORFs=64
+2024-12-16 09:18:27,174 - INFO - MAIN - contig RDS: contig=k141_178, RDS=-382.378643, score-sum=-30590.291436, #ORFs=80
+2024-12-16 09:18:27,174 - INFO - MAIN - contig RDS: contig=k141_151, RDS=-253.425176, score-sum=-15965.786063, #ORFs=63
+2024-12-16 09:18:27,174 - INFO - MAIN - contig RDS: contig=k141_169, RDS=-321.090313, score-sum=-31466.850657, #ORFs=98
+2024-12-16 09:18:27,174 - INFO - MAIN - contig RDS: contig=k141_170, RDS=-112.619393, score-sum=-563.096965, #ORFs=5
+2024-12-16 09:18:27,175 - INFO - MAIN - contig RDS: contig=k141_194, RDS=-327.776255, score-sum=-50805.319499, #ORFs=155
+2024-12-16 09:18:27,175 - INFO - MAIN - contig RDS: contig=k141_184, RDS=-178.933898, score-sum=-26840.084655, #ORFs=150
+2024-12-16 09:18:27,175 - INFO - MAIN - contig RDS: contig=k141_195, RDS=-521.981907, score-sum=-24533.149642, #ORFs=47
+2024-12-16 09:18:27,175 - INFO - MAIN - contig RDS: contig=k141_171, RDS=-230.019949, score-sum=-8280.718160, #ORFs=36
+2024-12-16 09:18:27,176 - INFO - MAIN - contig RDS: contig=k141_210, RDS=-325.835215, score-sum=-61582.855656, #ORFs=189
+2024-12-16 09:18:27,176 - INFO - MAIN - contig RDS: contig=k141_198, RDS=-283.850099, score-sum=-58189.270349, #ORFs=205
+2024-12-16 09:18:27,176 - INFO - MAIN - contig RDS: contig=k141_199, RDS=-2.639172, score-sum=-2.639172, #ORFs=1
+2024-12-16 09:18:27,177 - INFO - MAIN - contig RDS: contig=k141_212, RDS=-289.488683, score-sum=-59634.668697, #ORFs=206
+2024-12-16 09:18:27,177 - INFO - MAIN - contig RDS: contig=k141_179, RDS=-316.484340, score-sum=-47789.135301, #ORFs=151
+2024-12-16 09:18:27,177 - INFO - MAIN - contig RDS: contig=k141_204, RDS=-303.791161, score-sum=-56808.947036, #ORFs=187
+2024-12-16 09:18:27,178 - INFO - MAIN - contig RDS: contig=k141_180, RDS=-296.635100, score-sum=-81278.017298, #ORFs=274
+2024-12-16 09:18:27,179 - INFO - MAIN - contig RDS: contig=k141_142, RDS=-348.821728, score-sum=-94181.866650, #ORFs=270
+2024-12-16 09:18:27,179 - INFO - MAIN - contig RDS: contig=k141_143, RDS=-259.117854, score-sum=-12178.539118, #ORFs=47
+2024-12-16 09:18:27,179 - INFO - MAIN - contig RDS: contig=k141_185, RDS=-306.137827, score-sum=-58472.324865, #ORFs=191
+2024-12-16 09:18:27,179 - INFO - MAIN - contig RDS: contig=k141_186, RDS=-55.214529, score-sum=-717.788879, #ORFs=13
+2024-12-16 09:18:27,180 - INFO - MAIN - contig RDS: contig=k141_87, RDS=-268.659669, score-sum=-87851.711785, #ORFs=327
+2024-12-16 09:18:27,180 - INFO - MAIN - contig RDS: contig=k141_181, RDS=-346.976270, score-sum=-31574.840558, #ORFs=91
+2024-12-16 09:18:27,180 - INFO - MAIN - contig RDS: contig=k141_182, RDS=10.616053, score-sum=63.696319, #ORFs=6
+2024-12-16 09:18:27,180 - INFO - MAIN - contig RDS: contig=k141_183, RDS=-3701.305483, score-sum=-3701.305483, #ORFs=1
+2024-12-16 09:18:27,181 - INFO - MAIN - contig RDS: contig=k141_201, RDS=-327.303748, score-sum=-73316.039629, #ORFs=224
+2024-12-16 09:18:27,181 - INFO - MAIN - contig RDS: contig=k141_205, RDS=-253.038939, score-sum=-22267.426610, #ORFs=88
+2024-12-16 09:18:27,181 - INFO - MAIN - contig RDS: contig=k141_187, RDS=-215.437097, score-sum=-18527.590363, #ORFs=86
+2024-12-16 09:18:27,182 - INFO - MAIN - contig RDS: contig=k141_211, RDS=-327.357760, score-sum=-83148.871049, #ORFs=254
+2024-12-16 09:18:27,182 - INFO - MAIN - contig RDS: contig=k141_213, RDS=-278.014237, score-sum=-58661.003955, #ORFs=211
+2024-12-16 09:18:27,182 - INFO - MAIN - contig RDS: contig=k141_214, RDS=0.227903, score-sum=1.823222, #ORFs=8
+2024-12-16 09:18:27,182 - INFO - MAIN - RDS SNT filter: # discarded contigs=67, # remaining contigs=41
+2024-12-16 09:18:27,222 - INFO - functions - rRNAs: contig=k141_156, # rRNAs=0
+2024-12-16 09:18:27,230 - INFO - functions - circularity: contig=k141_84, is-circ=False
+2024-12-16 09:18:27,230 - INFO - functions - circularity: contig=k141_156, is-circ=False
+2024-12-16 09:18:27,231 - INFO - functions - rRNAs: contig=k141_140, # rRNAs=0
+2024-12-16 09:18:27,236 - INFO - functions - circularity: contig=k141_140, is-circ=False
+2024-12-16 09:18:27,239 - INFO - functions - circularity: contig=k141_72, is-circ=False
+2024-12-16 09:18:27,241 - INFO - functions - rRNAs: contig=k141_72, # rRNAs=0
+2024-12-16 09:18:27,246 - INFO - functions - rRNAs: contig=k141_84, # rRNAs=0
+2024-12-16 09:18:27,249 - INFO - functions - circularity: contig=k141_124, is-circ=False
+2024-12-16 09:18:27,253 - INFO - functions - circularity: contig=k141_97, is-circ=False
+2024-12-16 09:18:27,256 - INFO - functions - rRNAs: contig=k141_41, # rRNAs=0
+2024-12-16 09:18:27,257 - INFO - functions - circularity: contig=k141_41, is-circ=False
+2024-12-16 09:18:27,261 - INFO - functions - circularity: contig=k141_141, is-circ=False
+2024-12-16 09:18:27,278 - INFO - functions - circularity: contig=k141_113, is-circ=False
+2024-12-16 09:18:27,279 - INFO - functions - circularity: contig=k141_21, is-circ=False
+2024-12-16 09:18:27,280 - INFO - functions - circularity: contig=k141_94, is-circ=False
+2024-12-16 09:18:27,282 - INFO - functions - rRNAs: contig=k141_75, # rRNAs=0
+2024-12-16 09:18:27,284 - INFO - functions - rRNAs: contig=k141_97, # rRNAs=0
+2024-12-16 09:18:27,286 - INFO - functions - rRNAs: contig=k141_141, # rRNAs=0
+2024-12-16 09:18:27,287 - INFO - functions - circularity: contig=k141_75, is-circ=False
+2024-12-16 09:18:27,288 - INFO - functions -  mob genes: hit! contig=k141_153, type=profile_MOBF, start=11580, end=16850, strand=+
+2024-12-16 09:18:27,289 - INFO - functions - circularity: contig=k141_4, is-circ=False
+2024-12-16 09:18:27,291 - INFO - functions -  mob genes: hit! contig=k141_148, type=T4SS_MOBP1, start=35412, end=38111, strand=-
+2024-12-16 09:18:27,291 - INFO - functions - rRNAs: contig=k141_124, # rRNAs=0
+2024-12-16 09:18:27,291 - INFO - functions -  mob genes: hit! contig=k141_46, type=T4SS_MOBP1, start=1159, end=2712, strand=+
+2024-12-16 09:18:27,293 - INFO - functions -  mob genes: hit! contig=k141_214, type=T4SS_MOBQ, start=3619, end=5442, strand=-
+2024-12-16 09:18:27,293 - INFO - functions - mob genes: contig=k141_214, # mob-genes=1
+2024-12-16 09:18:27,295 - INFO - functions - rRNAs: contig=k141_94, # rRNAs=0
+2024-12-16 09:18:27,300 - INFO - functions - rRNAs: contig=k141_21, # rRNAs=0
+2024-12-16 09:18:27,306 - INFO - functions - circularity: contig=k141_43, is-circ=False
+2024-12-16 09:18:27,311 - INFO - functions - circularity: link! id=k141_60, length=106, # mismatches=0, linking-region=[1-106]...[4594-4699]
+2024-12-16 09:18:27,312 - INFO - functions - circularity: contig=k141_174, is-circ=False
+2024-12-16 09:18:27,312 - INFO - functions - circularity: contig=k141_60, is-circ=True
+2024-12-16 09:18:27,325 - INFO - functions - rRNAs: contig=k141_113, # rRNAs=0
+2024-12-16 09:18:27,328 - INFO - functions - rRNAs: contig=k141_174, # rRNAs=0
+2024-12-16 09:18:27,341 - INFO - functions - circularity: contig=k141_175, is-circ=False
+2024-12-16 09:18:27,349 - INFO - functions - oriT: contig=k141_140, # oriT=0
+2024-12-16 09:18:27,353 - INFO - functions - rRNAs: contig=k141_175, # rRNAs=0
+2024-12-16 09:18:27,354 - INFO - functions - rRNAs: contig=k141_43, # rRNAs=0
+2024-12-16 09:18:27,356 - INFO - functions - rRNAs: contig=k141_4, # rRNAs=0
+2024-12-16 09:18:27,361 - INFO - functions - oriT: contig=k141_156, # oriT=0
+2024-12-16 09:18:27,363 - INFO - functions - oriT: contig=k141_84, # oriT=0
+2024-12-16 09:18:27,368 - INFO - functions - oriT: contig=k141_72, # oriT=0
+2024-12-16 09:18:27,369 - INFO - functions - oriT: contig=k141_41, # oriT=0
+2024-12-16 09:18:27,373 - INFO - functions - circularity: contig=k141_188, is-circ=False
+2024-12-16 09:18:27,387 - INFO - functions - circularity: contig=k141_127, is-circ=False
+2024-12-16 09:18:27,391 - INFO - functions - oriT: contig=k141_124, # oriT=0
+2024-12-16 09:18:27,392 - INFO - functions - oriT: contig=k141_141, # oriT=0
+2024-12-16 09:18:27,393 - INFO - functions - oriT: contig=k141_94, # oriT=0
+2024-12-16 09:18:27,395 - INFO - functions - oriT: contig=k141_97, # oriT=0
+2024-12-16 09:18:27,406 - INFO - functions - oriT: contig=k141_21, # oriT=0
+2024-12-16 09:18:27,410 - INFO - functions - oriT: contig=k141_75, # oriT=0
+2024-12-16 09:18:27,411 - INFO - functions - circularity: contig=k141_121, is-circ=False
+2024-12-16 09:18:27,416 - INFO - functions - rRNAs: contig=k141_127, # rRNAs=0
+2024-12-16 09:18:27,416 - INFO - functions - oriT: contig=k141_113, # oriT=0
+2024-12-16 09:18:27,425 - INFO - functions - oriT: contig=k141_4, # oriT=0
+2024-12-16 09:18:27,426 - INFO - functions - oriT: contig=k141_43, # oriT=0
+2024-12-16 09:18:27,432 - INFO - functions - oriT: contig=k141_174, # oriT=0
+2024-12-16 09:18:27,435 - INFO - functions - circularity: contig=k141_45, is-circ=False
+2024-12-16 09:18:27,452 - INFO - functions - circularity: contig=k141_122, is-circ=False
+2024-12-16 09:18:27,480 - INFO - functions - oriT: hit! contig=k141_60, id=NZ_CP011065|MOBP, c-start=429, c-end=514, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:27,480 - INFO - functions - oriT: contig=k141_60, # oriT=1
+2024-12-16 09:18:27,485 - INFO - functions - rRNAs: contig=k141_60, # rRNAs=0
+2024-12-16 09:18:27,488 - INFO - functions - rRNAs: contig=k141_188, # rRNAs=0
+2024-12-16 09:18:27,501 - INFO - functions - oriT: contig=k141_175, # oriT=0
+2024-12-16 09:18:27,521 - INFO - functions - rRNAs: contig=k141_122, # rRNAs=0
+2024-12-16 09:18:27,522 - INFO - functions - rRNAs: contig=k141_121, # rRNAs=0
+2024-12-16 09:18:27,523 - INFO - functions - circularity: contig=k141_193, is-circ=False
+2024-12-16 09:18:27,536 - INFO - functions - oriT: contig=k141_188, # oriT=0
+2024-12-16 09:18:27,548 - INFO - functions - oriT: contig=k141_127, # oriT=0
+2024-12-16 09:18:27,582 - INFO - functions - circularity: contig=k141_101, is-circ=False
+2024-12-16 09:18:27,591 - INFO - functions - rRNAs: contig=k141_193, # rRNAs=0
+2024-12-16 09:18:27,602 - INFO - functions - oriT: contig=k141_121, # oriT=0
+2024-12-16 09:18:27,612 - INFO - functions - oriT: contig=k141_45, # oriT=0
+2024-12-16 09:18:27,617 - INFO - functions - inc-type: contig=k141_97, # inc-types=0
+2024-12-16 09:18:27,627 - INFO - functions - inc-type: contig=k141_41, # inc-types=0
+2024-12-16 09:18:27,629 - INFO - functions - inc-type: contig=k141_141, # inc-types=0
+2024-12-16 09:18:27,633 - INFO - functions - inc-type: contig=k141_140, # inc-types=0
+2024-12-16 09:18:27,635 - INFO - functions - inc-type: contig=k141_156, # inc-types=0
+2024-12-16 09:18:27,635 - INFO - functions - inc-type: contig=k141_72, # inc-types=0
+2024-12-16 09:18:27,642 - INFO - functions - circularity: contig=k141_108, is-circ=False
+2024-12-16 09:18:27,646 - INFO - functions - inc-type: contig=k141_21, # inc-types=0
+2024-12-16 09:18:27,654 - INFO - functions - inc-type: contig=k141_124, # inc-types=0
+2024-12-16 09:18:27,657 - INFO - functions - circularity: link! id=k141_46, length=106, # mismatches=0, linking-region=[1-106]...[5650-5755]
+2024-12-16 09:18:27,657 - INFO - functions - circularity: contig=k141_46, is-circ=True
+2024-12-16 09:18:27,665 - INFO - functions - inc-type: contig=k141_84, # inc-types=0
+2024-12-16 09:18:27,677 - INFO - functions - rRNAs: contig=k141_45, # rRNAs=0
+2024-12-16 09:18:27,681 - INFO - functions - inc-type: contig=k141_94, # inc-types=0
+2024-12-16 09:18:27,682 - INFO - functions - oriT: contig=k141_122, # oriT=0
+2024-12-16 09:18:27,683 - INFO - functions - inc-type: contig=k141_113, # inc-types=0
+2024-12-16 09:18:27,687 - INFO - functions - circularity: contig=k141_33, is-circ=False
+2024-12-16 09:18:27,688 - INFO - functions - inc-type: contig=k141_75, # inc-types=0
+2024-12-16 09:18:27,695 - INFO - functions - inc-type: contig=k141_4, # inc-types=0
+2024-12-16 09:18:27,704 - INFO - functions - oriT: contig=k141_193, # oriT=0
+2024-12-16 09:18:27,708 - INFO - functions - inc-type: contig=k141_174, # inc-types=0
+2024-12-16 09:18:27,712 - INFO - functions - circularity: contig=k141_70, is-circ=False
+2024-12-16 09:18:27,723 - INFO - functions - inc-type: contig=k141_43, # inc-types=0
+2024-12-16 09:18:27,733 - INFO - functions - circularity: contig=k141_82, is-circ=False
+2024-12-16 09:18:27,740 - INFO - functions - inc-type: hit! contig=k141_60, type=ColRNAI, start=4564, end=4434, strand=-
+2024-12-16 09:18:27,740 - INFO - functions - inc-type: contig=k141_60, # inc-types=1
+2024-12-16 09:18:27,768 - INFO - functions - inc-type: contig=k141_175, # inc-types=0
+2024-12-16 09:18:27,788 - INFO - functions - inc-type: contig=k141_188, # inc-types=0
+2024-12-16 09:18:27,802 - INFO - functions - oriT: contig=k141_101, # oriT=0
+2024-12-16 09:18:27,812 - INFO - functions - circularity: contig=k141_159, is-circ=False
+2024-12-16 09:18:27,815 - INFO - functions - rRNAs: contig=k141_46, # rRNAs=0
+2024-12-16 09:18:27,825 - INFO - functions - oriT: contig=k141_108, # oriT=0
+2024-12-16 09:18:27,835 - INFO - functions - inc-type: contig=k141_127, # inc-types=0
+2024-12-16 09:18:27,835 - INFO - functions - rRNAs: contig=k141_82, # rRNAs=0
+2024-12-16 09:18:27,846 - INFO - functions - oriT: hit! contig=k141_46, id=NZ_CP016585|MOBP, c-start=428, c-end=513, coverage=1.000000, identity=0.988372
+2024-12-16 09:18:27,846 - INFO - functions - oriT: contig=k141_46, # oriT=1
+2024-12-16 09:18:27,852 - INFO - functions - inc-type: contig=k141_121, # inc-types=0
+2024-12-16 09:18:27,859 - INFO - functions - circularity: contig=k141_54, is-circ=False
+2024-12-16 09:18:27,861 - INFO - functions - inc-type: contig=k141_45, # inc-types=0
+2024-12-16 09:18:27,876 - INFO - functions - oriT: contig=k141_33, # oriT=0
+2024-12-16 09:18:27,881 - INFO - functions - circularity: contig=k141_147, is-circ=False
+2024-12-16 09:18:27,915 - INFO - functions - oriT: hit! contig=k141_70, id=EU164802|MOBP, c-start=3811, c-end=4392, coverage=1.000000, identity=0.976311
+2024-12-16 09:18:27,916 - INFO - functions - oriT: contig=k141_70, # oriT=1
+2024-12-16 09:18:27,923 - INFO - functions - inc-type: contig=k141_122, # inc-types=0
+2024-12-16 09:18:27,926 - INFO - functions - inc-type: contig=k141_193, # inc-types=0
+2024-12-16 09:18:27,982 - INFO - functions - rRNAs: contig=k141_33, # rRNAs=0
+2024-12-16 09:18:27,983 - INFO - functions - rRNAs: contig=k141_108, # rRNAs=0
+2024-12-16 09:18:27,983 - INFO - functions - oriT: contig=k141_82, # oriT=0
+2024-12-16 09:18:27,987 - INFO - functions - circularity: contig=k141_153, is-circ=False
+2024-12-16 09:18:27,988 - INFO - functions - rRNAs: contig=k141_70, # rRNAs=0
+2024-12-16 09:18:28,011 - INFO - functions - circularity: contig=k141_83, is-circ=False
+2024-12-16 09:18:28,021 - INFO - functions - oriT: hit! contig=k141_159, id=KT325596|MOBF, c-start=14275, c-end=14564, coverage=1.000000, identity=0.996552
+2024-12-16 09:18:28,021 - INFO - functions - oriT: contig=k141_159, # oriT=1
+2024-12-16 09:18:28,042 - INFO - functions - inc-type: contig=k141_101, # inc-types=0
+2024-12-16 09:18:28,044 - INFO - functions - rRNAs: contig=k141_101, # rRNAs=0
+2024-12-16 09:18:28,057 - INFO - functions - oriT: contig=k141_54, # oriT=0
+2024-12-16 09:18:28,077 - INFO - functions - circularity: contig=k141_107, is-circ=False
+2024-12-16 09:18:28,081 - INFO - functions - inc-type: hit! contig=k141_70, type=IncX1, start=5376, end=5749, strand=+
+2024-12-16 09:18:28,081 - INFO - functions - inc-type: contig=k141_70, # inc-types=1
+2024-12-16 09:18:28,081 - INFO - functions - inc-type: hit! contig=k141_108, type=IncI1-I(Gamma)_1__AP005147, start=14795, end=14936, strand=+
+2024-12-16 09:18:28,082 - INFO - functions - inc-type: contig=k141_108, # inc-types=1
+2024-12-16 09:18:28,098 - INFO - functions - oriT: contig=k141_147, # oriT=0
+2024-12-16 09:18:28,098 - INFO - functions - inc-type: contig=k141_46, # inc-types=0
+2024-12-16 09:18:28,115 - INFO - functions - circularity: contig=k141_138, is-circ=False
+2024-12-16 09:18:28,132 - INFO - functions - inc-type: hit! contig=k141_33, type=IncFIB(AP001918), start=1477, end=2158, strand=+
+2024-12-16 09:18:28,132 - INFO - functions - inc-type: contig=k141_33, # inc-types=1
+2024-12-16 09:18:28,138 - INFO - functions - rRNAs: contig=k141_147, # rRNAs=0
+2024-12-16 09:18:28,146 - INFO - functions - rRNAs: contig=k141_83, # rRNAs=0
+2024-12-16 09:18:28,161 - INFO - functions - oriT: contig=k141_153, # oriT=0
+2024-12-16 09:18:28,170 - INFO - functions - inc-type: contig=k141_82, # inc-types=0
+2024-12-16 09:18:28,188 - INFO - functions - circularity: contig=k141_148, is-circ=False
+2024-12-16 09:18:28,226 - INFO - functions - oriT: contig=k141_83, # oriT=0
+2024-12-16 09:18:28,233 - INFO - functions - rRNAs: contig=k141_107, # rRNAs=0
+2024-12-16 09:18:28,245 - INFO - functions - inc-type: contig=k141_159, # inc-types=0
+2024-12-16 09:18:28,253 - INFO - functions - rRNAs: contig=k141_138, # rRNAs=0
+2024-12-16 09:18:28,264 - INFO - functions - circularity: contig=k141_149, is-circ=False
+2024-12-16 09:18:28,266 - INFO - functions - oriT: contig=k141_107, # oriT=0
+2024-12-16 09:18:28,300 - INFO - functions - oriT: contig=k141_138, # oriT=0
+2024-12-16 09:18:28,312 - INFO - functions - inc-type: contig=k141_54, # inc-types=0
+2024-12-16 09:18:28,332 - INFO - functions - circularity: contig=k141_199, is-circ=False
+2024-12-16 09:18:28,339 - INFO - functions - inc-type: contig=k141_147, # inc-types=0
+2024-12-16 09:18:28,353 - INFO - functions - rRNAs: contig=k141_199, # rRNAs=0
+2024-12-16 09:18:28,360 - INFO - functions - rRNAs: contig=k141_159, # rRNAs=0
+2024-12-16 09:18:28,363 - INFO - functions - rRNAs: contig=k141_54, # rRNAs=0
+2024-12-16 09:18:28,383 - INFO - functions - circularity: contig=k141_182, is-circ=False
+2024-12-16 09:18:28,410 - INFO - functions - inc-type: hit! contig=k141_153, type=IncFII, start=21931, end=21672, strand=-
+2024-12-16 09:18:28,410 - INFO - functions - inc-type: contig=k141_153, # inc-types=1
+2024-12-16 09:18:28,418 - INFO - functions - oriT: hit! contig=k141_148, id=JN253636|MOBP, c-start=38481, c-end=38573, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:28,418 - INFO - functions - oriT: contig=k141_148, # oriT=1
+2024-12-16 09:18:28,437 - INFO - functions - oriT: contig=k141_149, # oriT=0
+2024-12-16 09:18:28,439 - INFO - functions - inc-type: contig=k141_83, # inc-types=0
+2024-12-16 09:18:28,459 - INFO - functions - circularity: link! id=k141_214, length=141, # mismatches=0, linking-region=[1-141]...[7396-7536]
+2024-12-16 09:18:28,460 - INFO - functions - circularity: contig=k141_214, is-circ=True
+2024-12-16 09:18:28,476 - INFO - functions - inc-type: contig=k141_107, # inc-types=0
+2024-12-16 09:18:28,501 - INFO - functions - rRNAs: contig=k141_149, # rRNAs=0
+2024-12-16 09:18:28,506 - INFO - functions - oriT: contig=k141_199, # oriT=0
+2024-12-16 09:18:28,523 - INFO - functions - inc-type: contig=k141_138, # inc-types=0
+2024-12-16 09:18:28,584 - INFO - functions - rep genes: hit! contig=k141_153, type=replication_PCLA_4996376, start=21929, end=22786, strand=+
+2024-12-16 09:18:28,585 - INFO - functions - rep genes: hit! contig=k141_174, type=replication_PCLA_989521, start=404, end=1375, strand=-
+2024-12-16 09:18:28,585 - INFO - functions - rep genes: hit! contig=k141_174, type=replication_PCLA_989528, start=1375, end=2541, strand=-
+2024-12-16 09:18:28,585 - INFO - functions - rep genes: contig=k141_174, # rep-genes=2
+2024-12-16 09:18:28,587 - INFO - functions - oriT: contig=k141_182, # oriT=0
+2024-12-16 09:18:28,589 - INFO - functions - inc-type: contig=k141_148, # inc-types=0
+2024-12-16 09:18:28,629 - INFO - functions - rRNAs: contig=k141_153, # rRNAs=0
+2024-12-16 09:18:28,653 - INFO - functions - inc-type: contig=k141_149, # inc-types=0
+2024-12-16 09:18:28,666 - INFO - functions - rRNAs: contig=k141_182, # rRNAs=0
+2024-12-16 09:18:28,671 - INFO - functions - oriT: contig=k141_214, # oriT=0
+2024-12-16 09:18:28,710 - INFO - functions - rRNAs: contig=k141_214, # rRNAs=0
+2024-12-16 09:18:28,783 - INFO - functions - inc-type: contig=k141_199, # inc-types=0
+2024-12-16 09:18:28,798 - INFO - functions - inc-type: contig=k141_214, # inc-types=0
+2024-12-16 09:18:28,809 - INFO - functions - inc-type: contig=k141_182, # inc-types=0
+2024-12-16 09:18:29,133 - INFO - functions - rRNAs: contig=k141_148, # rRNAs=0
+2024-12-16 09:18:29,955 - INFO - functions - ref plasmids: hit! contig=k141_148, id=NZ_CP037994.1, c-start=1157, c-end=46257, coverage=0.975031, identity=0.999601
+2024-12-16 09:18:29,956 - INFO - functions - ref plasmids: contig=k141_148, # ref plasmids=1
+2024-12-16 09:18:30,009 - INFO - functions - ref plasmids: contig=k141_84, # ref plasmids=0
+2024-12-16 09:18:30,055 - INFO - functions - ref plasmids: contig=k141_140, # ref plasmids=0
+2024-12-16 09:18:30,111 - INFO - functions - ref plasmids: contig=k141_175, # ref plasmids=0
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_107, type=ANT_3pp_I-NCBI, start=2215, end=3003, strand=+
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_121, type=APH_3pp-NCBI, start=4638, end=5441, strand=-
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_121, type=APH_6-NCBI, start=3802, end=4638, strand=-
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_182, type=cmlA_floR-NCBI, start=1669, end=2883, strand=-
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_107, type=trim_DfrA1_like-NCBI, start=1611, end=2084, strand=+
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_107, type=macrolide_MphA-NCBI, start=9700, end=10605, strand=-
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_107, type=SMR_qac_E-NCBI, start=3209, end=3556, strand=+
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_113, type=penta_rpt_Qnr-NCBI, start=868, end=1524, strand=-
+2024-12-16 09:18:30,342 - INFO - functions - AMRs: hit! contig=k141_107, type=Sul1-NCBI, start=3550, end=4389, strand=+
+2024-12-16 09:18:30,343 - INFO - functions - AMRs: hit! contig=k141_121, type=Sul2-NCBI, start=5502, end=6317, strand=-
+2024-12-16 09:18:30,343 - INFO - functions - AMRs: hit! contig=k141_121, type=tet_MFS_A-NCBI, start=1549, end=2748, strand=-
+2024-12-16 09:18:30,343 - INFO - functions - AMRs: contig=k141_121, # AMRs=4
+2024-12-16 09:18:30,483 - INFO - functions - ref plasmids: hit! contig=k141_108, id=NZ_CP031111.1, c-start=1, c-end=17245, coverage=1.000000, identity=0.999826
+2024-12-16 09:18:30,483 - INFO - functions - ref plasmids: contig=k141_108, # ref plasmids=1
+2024-12-16 09:18:30,510 - INFO - functions - ref plasmids: hit! contig=k141_156, id=NZ_LT904889.1, c-start=1, c-end=1039, coverage=1.000000, identity=0.997113
+2024-12-16 09:18:30,510 - INFO - functions - ref plasmids: contig=k141_156, # ref plasmids=1
+2024-12-16 09:18:30,609 - INFO - functions - ref plasmids: hit! contig=k141_127, id=NZ_CP038392.1, c-start=1, c-end=1093, coverage=0.998174, identity=0.966148
+2024-12-16 09:18:30,610 - INFO - functions - ref plasmids: contig=k141_127, # ref plasmids=1
+2024-12-16 09:18:30,852 - INFO - functions - ref plasmids: hit! contig=k141_97, id=NZ_CP032810.1, c-start=1, c-end=1375, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:30,852 - INFO - functions - ref plasmids: contig=k141_97, # ref plasmids=1
+2024-12-16 09:18:30,855 - INFO - functions - ref plasmids: contig=k141_141, # ref plasmids=0
+2024-12-16 09:18:30,887 - INFO - functions - ref plasmids: hit! contig=k141_72, id=NZ_CP019281.1, c-start=2, c-end=1368, coverage=1.002193, identity=0.958425
+2024-12-16 09:18:30,887 - INFO - functions - ref plasmids: contig=k141_72, # ref plasmids=1
+2024-12-16 09:18:30,979 - INFO - functions - ref plasmids: hit! contig=k141_41, id=NZ_AP017611.1, c-start=1, c-end=1595, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:30,979 - INFO - functions - ref plasmids: contig=k141_41, # ref plasmids=1
+2024-12-16 09:18:31,130 - INFO - functions - ref plasmids: contig=k141_153, # ref plasmids=0
+2024-12-16 09:18:31,155 - INFO - functions - ref plasmids: hit! contig=k141_124, id=NZ_CP024852.1, c-start=1, c-end=2000, coverage=1.000500, identity=0.991004
+2024-12-16 09:18:31,155 - INFO - functions - ref plasmids: contig=k141_124, # ref plasmids=1
+2024-12-16 09:18:31,254 - INFO - functions - ref plasmids: hit! contig=k141_101, id=NZ_AP017611.1, c-start=1, c-end=18662, coverage=1.000054, identity=0.998821
+2024-12-16 09:18:31,254 - INFO - functions - ref plasmids: contig=k141_101, # ref plasmids=1
+2024-12-16 09:18:31,338 - INFO - functions - ref plasmids: hit! contig=k141_94, id=NZ_CP018993.1, c-start=1, c-end=1375, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:31,338 - INFO - functions - ref plasmids: contig=k141_94, # ref plasmids=1
+2024-12-16 09:18:31,666 - INFO - functions - ref plasmids: hit! contig=k141_54, id=NZ_CP010316.1, c-start=1, c-end=15801, coverage=1.000000, identity=0.999747
+2024-12-16 09:18:31,666 - INFO - functions - ref plasmids: contig=k141_54, # ref plasmids=1
+2024-12-16 09:18:31,673 - INFO - functions - ref plasmids: hit! contig=k141_159, id=NZ_AP017611.1, c-start=140, c-end=17117, coverage=0.988301, identity=0.999529
+2024-12-16 09:18:31,674 - INFO - functions - ref plasmids: contig=k141_159, # ref plasmids=1
+2024-12-16 09:18:31,781 - INFO - functions - ref plasmids: contig=k141_199, # ref plasmids=0
+2024-12-16 09:18:31,812 - INFO - functions - ref plasmids: hit! contig=k141_75, id=NZ_CP019215.2, c-start=1, c-end=1686, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:31,812 - INFO - functions - ref plasmids: contig=k141_75, # ref plasmids=1
+2024-12-16 09:18:32,597 - INFO - functions - ref plasmids: hit! contig=k141_113, id=NZ_CP024153.1, c-start=140, c-end=2523, coverage=0.894895, identity=0.999581
+2024-12-16 09:18:32,598 - INFO - functions - ref plasmids: contig=k141_113, # ref plasmids=1
+2024-12-16 09:18:32,598 - INFO - functions - ref plasmids: contig=k141_21, # ref plasmids=0
+2024-12-16 09:18:32,717 - INFO - functions - ref plasmids: contig=k141_43, # ref plasmids=0
+2024-12-16 09:18:32,761 - INFO - functions - ref plasmids: hit! contig=k141_174, id=NZ_CP025403.1, c-start=1, c-end=3449, coverage=1.000000, identity=0.999420
+2024-12-16 09:18:32,762 - INFO - functions - ref plasmids: contig=k141_174, # ref plasmids=1
+2024-12-16 09:18:32,767 - INFO - functions - ref plasmids: hit! contig=k141_122, id=NZ_CP019258.1, c-start=1, c-end=2153, coverage=1.000000, identity=0.961449
+2024-12-16 09:18:32,767 - INFO - functions - ref plasmids: contig=k141_122, # ref plasmids=1
+2024-12-16 09:18:33,206 - INFO - functions - ref plasmids: contig=k141_138, # ref plasmids=0
+2024-12-16 09:18:33,609 - INFO - functions - ref plasmids: hit! contig=k141_70, id=NZ_AP017611.1, c-start=1, c-end=14865, coverage=1.000000, identity=0.999260
+2024-12-16 09:18:33,609 - INFO - functions - ref plasmids: contig=k141_70, # ref plasmids=1
+2024-12-16 09:18:34,299 - INFO - functions - ref plasmids: hit! contig=k141_4, id=NZ_CP041564.1, c-start=1, c-end=3519, coverage=0.871471, identity=0.999716
+2024-12-16 09:18:34,300 - INFO - functions - ref plasmids: contig=k141_4, # ref plasmids=1
+2024-12-16 09:18:34,363 - INFO - functions - ref plasmids: hit! contig=k141_60, id=NZ_CP043668.1, c-start=207, c-end=4699, coverage=0.956161, identity=0.999555
+2024-12-16 09:18:34,363 - INFO - functions - ref plasmids: contig=k141_60, # ref plasmids=1
+2024-12-16 09:18:34,997 - INFO - functions - ref plasmids: hit! contig=k141_193, id=NZ_CP049937.1, c-start=1, c-end=5141, coverage=1.000000, identity=0.999416
+2024-12-16 09:18:34,997 - INFO - functions - ref plasmids: contig=k141_193, # ref plasmids=1
+2024-12-16 09:18:35,813 - INFO - functions - ref plasmids: contig=k141_46, # ref plasmids=0
+2024-12-16 09:18:35,963 - INFO - functions - ref plasmids: hit! contig=k141_83, id=NC_011747.1, c-start=1, c-end=5997, coverage=1.000000, identity=0.999500
+2024-12-16 09:18:35,963 - INFO - functions - ref plasmids: contig=k141_83, # ref plasmids=1
+2024-12-16 09:18:36,201 - INFO - functions - ref plasmids: contig=k141_82, # ref plasmids=0
+2024-12-16 09:18:36,244 - INFO - functions - conj genes: hit! contig=k141_153, type=conjugation_PCLA_2324233, start=9409, end=11580, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_2394269, start=6952, end=8100, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_2506627, start=33084, end=35375, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3274294, start=24499, end=26667, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3288194, start=18962, end=22006, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_3348328, start=8996, end=10423, strand=-
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3385064, start=13172, end=13864, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3419216, start=22587, end=23789, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3556443, start=30794, end=32002, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_3575340, start=22006, end=22620, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_153, type=conjugation_PCLA_5892697, start=8422, end=9156, strand=+
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_6098967, start=10423, end=11151, strand=-
+2024-12-16 09:18:36,245 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_6098967, start=11138, end=11704, strand=-
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_687197, start=23818, end=24402, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_687200, start=18072, end=18872, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861739, start=13875, end=14858, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861745, start=2531, end=3355, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861736, start=16854, end=17381, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861737, start=16150, end=16854, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861738, start=14861, end=16150, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_148, type=conjugation_PCLA_861744, start=3441, end=4643, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_153, type=conjugation_PCLA_989526, start=702, end=1445, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989541, start=12944, end=13633, strand=-
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_153, type=conjugation_PCLA_989545, start=3660, end=5033, strand=+
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989561, start=8416, end=9006, strand=-
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989552, start=1666, end=2304, strand=-
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989555, start=7457, end=7972, strand=-
+2024-12-16 09:18:36,246 - INFO - functions - conj genes: hit! contig=k141_153, type=conjugation_PCLA_989550, start=2476, end=3021, strand=+
+2024-12-16 09:18:36,247 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989560, start=3302, end=3934, strand=-
+2024-12-16 09:18:36,247 - INFO - functions - conj genes: hit! contig=k141_159, type=conjugation_PCLA_989559, start=2313, end=3305, strand=-
+2024-12-16 09:18:36,247 - INFO - functions - conj genes: contig=k141_159, # conj-genes=9
+2024-12-16 09:18:36,331 - INFO - functions - ref plasmids: hit! contig=k141_214, id=NZ_CP019278.1, c-start=1362, c-end=7536, coverage=0.819931, identity=0.989804
+2024-12-16 09:18:36,331 - INFO - functions - ref plasmids: contig=k141_214, # ref plasmids=1
+2024-12-16 09:18:36,453 - INFO - functions - ref plasmids: contig=k141_188, # ref plasmids=0
+2024-12-16 09:18:37,378 - INFO - functions - ref plasmids: hit! contig=k141_33, id=NZ_CP029744.1, c-start=1, c-end=9646, coverage=1.000000, identity=0.998756
+2024-12-16 09:18:37,378 - INFO - functions - ref plasmids: contig=k141_33, # ref plasmids=1
+2024-12-16 09:18:38,090 - INFO - functions - ref plasmids: hit! contig=k141_45, id=NZ_AP017611.1, c-start=101, c-end=8013, coverage=0.987520, identity=0.998736
+2024-12-16 09:18:38,091 - INFO - functions - ref plasmids: contig=k141_45, # ref plasmids=1
+2024-12-16 09:18:38,151 - INFO - functions - ref plasmids: hit! contig=k141_182, id=NZ_CP032888.1, c-start=142, c-end=5259, coverage=0.938910, identity=0.998632
+2024-12-16 09:18:38,151 - INFO - functions - ref plasmids: contig=k141_182, # ref plasmids=1
+2024-12-16 09:18:38,615 - INFO - functions - ref plasmids: hit! contig=k141_147, id=NZ_CP055261.1, c-start=1, c-end=7413, coverage=1.000000, identity=0.999865
+2024-12-16 09:18:38,615 - INFO - functions - ref plasmids: contig=k141_147, # ref plasmids=1
+2024-12-16 09:18:39,258 - INFO - functions - ref plasmids: hit! contig=k141_149, id=NZ_CP019215.2, c-start=1, c-end=9845, coverage=1.000000, identity=0.998883
+2024-12-16 09:18:39,258 - INFO - functions - ref plasmids: contig=k141_149, # ref plasmids=1
+2024-12-16 09:18:39,422 - INFO - functions - ref plasmids: hit! contig=k141_121, id=NZ_CP021690.1, c-start=1, c-end=6937, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:39,422 - INFO - functions - ref plasmids: contig=k141_121, # ref plasmids=1
+2024-12-16 09:18:40,776 - INFO - functions - ref plasmids: hit! contig=k141_107, id=NZ_CP010138.1, c-start=1, c-end=10814, coverage=1.000000, identity=1.000000
+2024-12-16 09:18:40,776 - INFO - functions - ref plasmids: contig=k141_107, # ref plasmids=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_148, len=46257, cov=NA, ORFs=47, RDS=48.191374, circ=False, incs=0, # rep=0, # mob=1, #oriT=1, # con=16, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_153, len=25394, cov=NA, ORFs=25, RDS=64.718884, circ=False, incs=1, # rep=1, # mob=1, #oriT=0, # con=5, # AMRs=0, # rRNAs=0, # refs=0
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_101, len=18662, cov=NA, ORFs=13, RDS=1.703694, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_108, len=17245, cov=NA, ORFs=16, RDS=47.249315, circ=False, incs=1, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_159, len=17181, cov=NA, ORFs=22, RDS=70.846890, circ=False, incs=0, # rep=0, # mob=0, #oriT=1, # con=9, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_54, len=15801, cov=NA, ORFs=13, RDS=0.919309, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_70, len=14865, cov=NA, ORFs=22, RDS=14.609936, circ=False, incs=1, # rep=0, # mob=0, #oriT=1, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,793 - INFO - MAIN - plasmid: id=k141_107, len=10814, cov=NA, ORFs=12, RDS=43.208066, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=5, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_149, len=9845, cov=NA, ORFs=15, RDS=32.383783, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_33, len=9646, cov=NA, ORFs=9, RDS=43.461937, circ=False, incs=1, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_188, len=9235, cov=NA, ORFs=4, RDS=1.044277, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=0
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_45, len=8013, cov=NA, ORFs=11, RDS=50.275982, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_214, len=7536, cov=NA, ORFs=8, RDS=0.227903, circ=True, incs=0, # rep=0, # mob=1, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_147, len=7413, cov=NA, ORFs=10, RDS=75.940484, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_121, len=6937, cov=NA, ORFs=8, RDS=27.131841, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=4, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_83, len=5997, cov=NA, ORFs=6, RDS=7.245097, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,794 - INFO - MAIN - plasmid: id=k141_46, len=5755, cov=NA, ORFs=5, RDS=10.594294, circ=True, incs=0, # rep=0, # mob=1, #oriT=1, # con=0, # AMRs=0, # rRNAs=0, # refs=0
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_182, len=5451, cov=NA, ORFs=6, RDS=10.616053, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=1, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_193, len=5141, cov=NA, ORFs=4, RDS=8.275300, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_60, len=4699, cov=NA, ORFs=5, RDS=6.736701, circ=True, incs=1, # rep=0, # mob=0, #oriT=1, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_4, len=4038, cov=NA, ORFs=3, RDS=21.281656, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_174, len=3449, cov=NA, ORFs=3, RDS=107.499188, circ=False, incs=0, # rep=2, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_124, len=2000, cov=NA, ORFs=3, RDS=38.526962, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_75, len=1686, cov=NA, ORFs=2, RDS=11.497040, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_97, len=1375, cov=NA, ORFs=1, RDS=0.121078, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1
+2024-12-16 09:18:40,795 - INFO - MAIN - plasmid: id=k141_94, len=1375, cov=NA, ORFs=1, RDS=0.121078, circ=False, incs=0, # rep=0, # mob=0, #oriT=0, # con=0, # AMRs=0, # rRNAs=0, # refs=1

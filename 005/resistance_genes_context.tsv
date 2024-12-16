@@ -1,0 +1,11 @@
+resistance_gene	resistance_gene_name	contig	start	end	identity	on_plasmid	on_phage	in_integron	in_transposon	flanking_IS	flanking_IN	mobile_potential	mobile_evidence
+PLMJLKIP_00052	qnrS2_1_DQ485530	k141_113	868	1524	100.0	No	No	No	No	No	No	No	
+PLMJLKIP_00104	tet(A)_4_AJ517790	k141_121	1549	2748	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP021690.1
+PLMJLKIP_00106	aph(6)-Id_4_CP000971	k141_121	3802	4638	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP021690.1
+PLMJLKIP_00107	aph(3'')-Ib_5_AF321551	k141_121	4638	5441	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP021690.1
+PLMJLKIP_00108	sul2_9_FJ197818	k141_121	5502	6317	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP021690.1
+PLMJLKIP_00699	dfrA17_1_FJ460238	k141_107	1611	2084	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP010138.1
+PLMJLKIP_00700	aadA5_1_AF137361	k141_107	2215	3003	100.0	Yes	No	Yes	No	No	No	Yes	Located on plasmid NZ_CP010138.1 | Located within integron INTEGRALL-aadA5-AF170088
+PLMJLKIP_00702	sul1_2_U12338	k141_107	3550	4389	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP010138.1
+PLMJLKIP_00709	mph(A)_1_D16251	k141_107	9700	10605	100.0	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP010138.1
+PLMJLKIP_04015	floR_2_AF118107	k141_182	1669	2883	98.188	Yes	No	No	No	No	No	Yes	Located on plasmid NZ_CP032888.1
